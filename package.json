@@ -2,6 +2,7 @@
   "name": "texteditor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jindal2209.github.io/Text_Editor_Auto_Suggestion",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
