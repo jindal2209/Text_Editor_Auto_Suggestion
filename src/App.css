@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  height: 100vh;
+}
+
+body {
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App > h1 {
+  margin: 0;
+  color: white;
+}
+
+.area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#custom_text_area {
+  min-width: 90vw;
+  min-height: 85vh;
+  background-color: black;
+  color: lime;
+  padding: 20px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0 10px 5px rgb(84, 82, 82);
+}
+
+.suggestion_box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  max-width: 25%;
+  min-width: 15%;
+}
+
+.suggestion_box  span {
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding: 2px;
+}
+
+.suggestion_box  span:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
