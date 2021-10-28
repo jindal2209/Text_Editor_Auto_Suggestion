@@ -44,6 +44,7 @@ function App() {
 		var arr = [];
 
 		function dfs(root, str) {
+			// if size of map is zero -> base case
 			if (root.m.size === 0) {
 				arr.push(str);
 				return;
